@@ -1,11 +1,11 @@
-# 1- str
-# 2- str
-# 3- dict
+# 1- string
+# 2- string
+# 3- dictionary
 # 4- set
 # 5- NoneType
 # 6- NoneType
-# 7- int
-# 8- str
+# 7- integer
+# 8- string
 # 9- list
-# 10- str
+# 10- string
 
