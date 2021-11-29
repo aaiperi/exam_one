@@ -10,7 +10,7 @@ print(append_str(['hello', 5, 'John']))
 # 2nd function
 def func(list):
     a = 0
-    dic ={}
+    dic = {}
     for i in list:
         a = a + 1
         dic.update({i:a})
@@ -26,15 +26,3 @@ def tuple_lst(n):
         print(a)
         print(b)
 tuple_lst((1,2,3,4,5))
-
-# add = "john", 5, "hello"
-#
-# def add_to_list(add_):
-#     additions = ['Element', 'start', 'fish']
-#     additions.insert(2, add)
-#     print(additions)
-#
-# add_to_list(add)
-
-
-
