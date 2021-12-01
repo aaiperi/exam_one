@@ -18,6 +18,7 @@ shop_list = [
     {'name': 'Target'},
 ]
 
+
 @bot.message_handler(content_types=['text'])
 def auto_handler(message):
     marcup = telebot.types.ReplyKeyboardMarkup(one_time_keyboard=True)

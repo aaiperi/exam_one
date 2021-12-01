@@ -23,6 +23,5 @@ dict = func(list_)
 def tuple_lst(n):
         a = list(filter(lambda x: x % 2 == 0, n))
         b = list(map(lambda x: x ** 2, n))
-        print(a)
-        print(b)
+        print(a, b)
 tuple_lst((1,2,3,4,5))

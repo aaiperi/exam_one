@@ -1,10 +1,13 @@
 deposit_amount = float(input('Введите сумму депозита: '))
-total = float(input('Введите желаемую конечную сумму: '))
+final_total = float(input('Введите желаемую конечную сумму: '))
 year_percent = float(input('Введите годовой процент: '))
 month = 0
 
-while deposit_amount < total:
-    deposit_amount *= 1 + (year_percent / 12) / 100
-    deposit_amount = int(12 * deposit_amount) / 12
+x = ((year_percent / 12) * deposit_amount)
+x += deposit_amount
+
+while x < final_total:
+    x += ((year_percent / 12) * x)
     month += 1
-    print(month)
+
+print(month)

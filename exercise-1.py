@@ -1,5 +1,5 @@
 # 1- string
-# 2- string
+# 2- boolean
 # 3- dictionary
 # 4- set
 # 5- NoneType
